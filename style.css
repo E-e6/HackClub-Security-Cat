@@ -3,6 +3,7 @@ body {
   font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
+/* Button hover effect */
 button {
   transform: scale(1);
   transition: transform 0.2s ease;
@@ -10,4 +11,29 @@ button {
 
 button:hover {
   transform: scale(1.1);
+}
+
+/* Navigation link hover */
+nav a {
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #facc15; /* Tailwind yellow-300 */
+}
+
+/* List items */
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Images */
+img {
+  border: 2px solid #f472b6; /* Tailwind pink-400 */
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
 }
